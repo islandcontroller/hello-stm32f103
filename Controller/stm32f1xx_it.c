@@ -127,7 +127,4 @@ void PendSV_Handler(void)
 void SysTick_Handler(void)
 {
   HAL_IncTick();
-
-  extern void vTask1ms(void);
-  vTask1ms();
 }

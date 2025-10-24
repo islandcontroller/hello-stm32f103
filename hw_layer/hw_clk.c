@@ -76,3 +76,15 @@ uint32_t ulHW_CLK_GetTime(void)
 {
   return HAL_GetTick();
 }
+
+/*!****************************************************************************
+ * @brief
+ * Get current core clock frequency
+ *
+ * @return  (uint32_t)  Core clock frequency in Hz
+ * @date  25.10.2025
+ ******************************************************************************/
+uint32_t ulHW_CLK_GetCoreClkFreq(void)
+{
+  return SystemCoreClock;
+}

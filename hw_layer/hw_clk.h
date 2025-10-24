@@ -18,5 +18,6 @@
 /*- Public interface ---------------------------------------------------------*/
 void vHW_CLK_Init(void);
 uint32_t ulHW_CLK_GetTime(void);
+uint32_t ulHW_CLK_GetCoreClkFreq(void);
 
 #endif // HW_CLK_H_

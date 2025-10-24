@@ -22,12 +22,18 @@ void vHW_Init(void);
 // GPIOs
 void vHW_ToggleLed(void);
 
-// System Time
+// System Time / Clock
 uint32_t ulHW_GetTime(void);
+uint32_t ulHW_GetCoreClkFreq(void);
 
 // SWO
 bool bHW_IsSwoDataAvailable(void);
 char cHW_ReadSwo(void);
 void vHW_WriteSwo(char cCh);
+
+// Core info
+uint32_t ulHW_GetCpuid(void);
+uint16_t uiHW_GetFlashSize(void);
+const uint32_t* pulHW_GetUID();
 
 #endif // HW_LAYER_H_
