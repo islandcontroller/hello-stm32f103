@@ -11,7 +11,7 @@ This project contains a simple set of modules to get the MCU running in a minima
 ## Requirements
 
 * Hardware
-  * "Blue Pill" STM32F103 development board or similars
+  * "[Blue Pill](https://stm32-base.org/boards/STM32F103C8T6-Blue-Pill.html)" STM32F103 development board or similar
   * *SEGGER J-Link* or *ST-Link* debug probe (see also: [islandcontroller/jtag-wire-adapter](https://github.com/islandcontroller/jtag-wire-adapter))
 * Software
   * Linux OS or WSL installation
